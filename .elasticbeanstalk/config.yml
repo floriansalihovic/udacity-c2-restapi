@@ -1,4 +1,7 @@
 branch-defaults:
+  dev:
+    environment: udagram-flosal-dev-dev
+    group_suffix: null
   ops-3-auth:
     environment: udacity-c2-restapi-dev
     group_suffix: null
@@ -9,16 +12,16 @@ environment-defaults:
     branch: null
     repository: null
 global:
-  application_name: udacity-c2-restapi
+  application_name: udagram-flosal-dev
   branch: null
-  default_ec2_keyname: null
+  default_ec2_keyname: aws-eb
   default_platform: Node.js
-  default_region: us-east-2
+  default_region: eu-central-1
   include_git_submodules: true
   instance_profile: null
   platform_name: null
   platform_version: null
-  profile: null
+  profile: eb-cli
   repository: null
   sc: git
   workspace_type: Application
